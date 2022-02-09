@@ -15,6 +15,8 @@
 <script setup>
 import { useStore } from "vuex";
 import { computed, ref } from "vue";
+import { useRouter } from "vue-router";
+const router = useRouter();
 
 const store = useStore();
 
@@ -30,5 +32,7 @@ const saveName = () => {
   store.dispatch("saveName", newName.value);
   //clear input field when new name is submitted
   newName.value = "";
+  //redirect to /about when button clicked
+  router.push("/about");
 };
 </script>
