@@ -101,7 +101,7 @@
     "@vue/compiler-dom" "3.2.30"
     "@vue/shared" "3.2.30"
 
-"@vue/devtools-api@^6.0.0-beta.18":
+"@vue/devtools-api@^6.0.0-beta.11", "@vue/devtools-api@^6.0.0-beta.18":
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.0.3.tgz#490354134a39474ee110738355a4acd946b21180"
   integrity sha512-KSVo6rqmaVCdzMBE3ZLz7AFNnWrqAwk7BJ3uYuzFi8kQqwuaGWY6QH8ToVw7QlqFrqkUbMq2kyvzRURrQZN0Iw==
@@ -915,6 +915,13 @@ vue@^3.2.25:
     "@vue/runtime-dom" "3.2.30"
     "@vue/server-renderer" "3.2.30"
     "@vue/shared" "3.2.30"
+
+vuex@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-4.0.2.tgz#f896dbd5bf2a0e963f00c67e9b610de749ccacc9"
+  integrity sha512-M6r8uxELjZIK8kTKDGgZTYX/ahzblnzC4isU1tpmEuOIIKmV+TRdc+H4s8ds2NuZ7wpUTdGRzJRtoj+lI+pc0Q==
+  dependencies:
+    "@vue/devtools-api" "^6.0.0-beta.11"
 
 xtend@^4.0.2:
   version "4.0.2"
